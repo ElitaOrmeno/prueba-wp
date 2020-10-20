@@ -1,0 +1,187 @@
+/*
+Theme Name: Karuna Child
+Theme URI: https://wordpress.com/themes/karuna/
+Template: karuna
+Author: Automattic
+Author URI: http://wordpress.com/themes/
+Description: Karuna is a clean business theme designed with health and wellness-focused sites in mind. With bright, bold colors, prominent featured images, and support for customer testimonials, your business' brand will shine with Karuna.
+Tags: blog,education,one-column,two-columns,right-sidebar,custom-background,custom-colors,custom-header,custom-menu,full-width-template,rtl-language-support,translation-ready,featured-image-header,featured-images,flexible-header,threaded-comments
+Version: 1.2.6.1602964630
+Updated: 2020-10-17 19:57:10
+
+*/
+body {
+    font-family: 'Cambria';
+    color: #16408B;
+}
+
+h2, 
+h3, 
+h4 {
+    text-transform: none;
+}
+
+.content-area {
+    max-width: 100% !important;
+}
+
+.site-content, 
+.site-main {
+    margin: 0 0 0 0;
+    max-width: 100%;
+    padding: 0;
+}
+
+.main-navigation a, 
+.main-navigation a:visited {
+    color: #2576ef;
+}
+
+.hero-image {
+    background-image: url('assets/Header.png');
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.intro {
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.intro-the-content {
+    font-size: 1.5rem;
+}
+
+.btn-intro {
+    color: #fff !important;
+    background-color: #2576ef;
+    border-radius: 15px;
+}
+
+.btn-link {
+    color:#2576ef !important;
+}
+
+.smartphone-img {
+    background-image: url('assets/image-5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.smartphone-padding {
+    padding: 5rem 4rem;
+}
+
+.smartphone-title,
+.smartphone-content p {
+    padding-left: 4rem;
+    padding-bottom: 2rem;
+    text-align: left;
+}
+
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 32%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: #0F1467;
+}
+
+#flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.entry-content {
+    text-align: center;
+}
+
+.the-title {
+    font-weight: 900;
+}
+
+.the-content p {
+    text-align: center;
+    padding: 0 15rem;
+}
+
+.features {
+    background-image: url('assets/image-4.png');
+    background-repeat: no-repeat;
+    background-color: #F2FBFC;
+    padding: 0 6rem 0 35rem;
+}
+
+.features-content p {
+    text-align: center;
+    padding: 0 3rem 2rem 3rem;
+}
+.features-text {
+    text-align: left;
+}
+
+.btn-google {
+    width: 130px;		/* exact button width */
+	height: 42px;		/* exact button height */
+	/* button background: don't repeat the background, let it scroll with 
+	   the page, and find the proper offset for the button in the file */
+    background: url('assets/istore.png') no-repeat scroll -28px -5px;
+    border-color: transparent;
+}
+
+.btn-ios {
+    width: 130px;
+	height: 42px;
+    background: url('assets/istore.png') no-repeat scroll -169px -5px;
+    border-color: transparent;
+}
+
+.how-it-works .the-content {
+        padding: 0 6rem 3rem 6rem;
+}
+
+.cf-submit {
+    padding: 0.5rem 2rem 0.5rem;
+    border: 1px solid #2576ef;
+    font-weight: 100;
+    position: absolute;
+    top: 8px;
+    right: 110px;
+}
+
+.cf-custom {
+    position: relative;
+}
+
+input[type="email"] {
+    padding: 1rem 2.5rem 1rem 1rem;
+}
+
+.site-footer,
+.footer-widgets-wrapper {
+    background-color: transparent;
+    text-align: center;
+    padding: 0;
+}
+
+.widget-area {
+    color: #333131;
+}
+
+.footer-widgets-wrapper a {
+    color: #bfc2c5;
+    font-size: 1rem;
+    padding: 0;
+}
+
+.widget div > ul li, .widget > ul li {
+    border-top: none;
+    padding: 0;
+}
